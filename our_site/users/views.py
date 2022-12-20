@@ -1,7 +1,9 @@
+from django.contrib.auth import authenticate, login
+from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
+from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm, LoginForm
 
 
 def register(request):
@@ -40,3 +42,23 @@ def profile(request):
     }
 
     return render(request, 'users/profile.html', context)
+
+
+def user_login(request):
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+
+            user = authenticate(username=username, password=password)
+            if user and user.is_active:
+                login(request, user)
+                return HttpResponseRedirect('/profile/', {'username': username, })
+            else:
+                form.add_error(None, 'Unknown or disabled account')
+                return render(request, 'users/login.html', {'form': form})
+        else:
+            return render(request, 'users/login.html', {'form': form})
+    else:
+        return render(request, 'users/login.html', {'form': LoginForm()})

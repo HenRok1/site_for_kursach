@@ -24,3 +24,9 @@ class ProfileUpdateForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ['image']
+
+
+class LoginForm(forms.ModelForm):
+    username = forms.CharField(label=u'Имя пользователя')
+    password = forms.CharField(label=u'Пароль')
+    next = forms.CharField(widget=forms.HiddenInput(), required=False)
