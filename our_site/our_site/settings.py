@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'get_docs.apps.GetDocsConfig',
     'users.apps.UsersConfig',
     'crispy_forms',
+    'files.apps.FilesConfig',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +58,7 @@ ROOT_URLCONF = 'our_site.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
