@@ -4,15 +4,16 @@
     <list default="true" id="a75ba56a-6c02-4113-a5c0-35e2e2df871e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_site/get_docs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/get_docs/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_site/get_docs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/get_docs/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/media/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/media/default.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/media/profile_pics/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/media/profile_pics/default.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our_site/our_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/our_site/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/users/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/users/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/users/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our_site/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +48,12 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Code/Kursach_v2/our_site/media"
+    "last_opened_file_path": "D:/Code/Kursach_v2/our_site/media/profile_pics"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Kursach_v2\our_site\media\profile_pics" />
       <recent name="D:\Code\Kursach_v2\our_site\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
