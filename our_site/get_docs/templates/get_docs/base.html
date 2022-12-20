@@ -35,6 +35,10 @@
             <!-- Правая часть навигационной панели -->
             <div class="navbar-nav">
                 {% if user.is_authenticated %}
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"  href="{% url 'search_results' %}">Search</button>
+                    </form>
                     <a class="nav-item nav-link" href="{% url 'profile' %}">Профиль</a>
                     <a class="nav-item nav-link" href="{% url 'logout' %}">Выход</a>
                 {% else %}
