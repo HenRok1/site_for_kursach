@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a75ba56a-6c02-4113-a5c0-35e2e2df871e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/static/get_docs/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/templates/get_docs/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/our_site/get_docs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Kursach_v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Kursach_v2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/our_site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/our_site/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/our_site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/our_site/our_site/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/our_site/site_main/views.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JAhPk1wpilsTDoUfGuhOPN05zd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/Kursach_v2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Kursach_v2\our_site\site_main\templates\registration" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a75ba56a-6c02-4113-a5c0-35e2e2df871e" name="Changes" comment="" />
+      <created>1671526772695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671526772695</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
