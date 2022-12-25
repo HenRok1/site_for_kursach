@@ -1,10 +1,10 @@
-from django.http import HttpResponse
-from django.views import View
-from django.urls import reverse, reverse_lazy
+from django.urls import reverse_lazy
+
 from .models import Kurs
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
+
 
 class KursCreate(CreateView):
     model = Kurs
