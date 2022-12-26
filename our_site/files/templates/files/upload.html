@@ -1,11 +1,11 @@
 {% extends "get_docs/base.html" %}
 
 {% block content %}
-<form method="post" enctype="multipart/form-data">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">submit</button>
-</form>
+<!--<form method="post" enctype="multipart/form-data">-->
+<!--    {% csrf_token %}-->
+<!--    {{ form.as_p }}-->
+<!--    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">submit</button>-->
+<!--</form>-->
 
 <h2 class="helptext">Введите название документа</h2>
 <form class="form-inline my-2 my-lg-0" action="{% url 'search_results' %}" method="get">

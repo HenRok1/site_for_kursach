@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'crispy_forms',
     'files.apps.FilesConfig',
-    'kurs.apps.KursConfig'
+    'kurs.apps.KursConfig',
+    'liblinks.apps.LiblinksConfig'
 ]
 
 MIDDLEWARE = [

@@ -2,16 +2,23 @@
 
 {% block content %}
 <h1>Результат поиска</h1>
- 
+
 <ul>
-  {% for Resume in object_list %}
+    {% for Resume in object_list %}
     <li>
-      {{ Resume.name }}
-      <a class="button" href="/fillin/"><button class="btn btn-outline-success my-2 my-sm-0">Заполнить</button>
-</a>
+        {{ Resume.name }}
+        {% if Resume.name == "Курсовая работа" %}
+        <a class="button" href="/fillin/">
+            <button class="btn btn-outline-success my-2 my-sm-0">Заполнить</button>
+        </a>
+        {% elif Resume.name == "Библиографическая ссылка" %}
+        <a class="button" href="/liblinks/">
+            <button class="btn btn-outline-success my-2 my-sm-0">Заполнить</button>
+        </a>
+        {% endif %}
     </li>
 
-  {% endfor %}
+    {% endfor %}
 </ul>
 
 {% endblock %} 
