@@ -1,0 +1,30 @@
+{% extends 'get_docs/base.html' %}
+
+{% block content %}
+
+<table class="field" xmlns="http://www.w3.org/1999/html">
+    <thead class="border-bottom font-weight-bold">
+    <tr>
+        <td>Заявления</td>
+    </tr>
+    </thead>
+
+    {% for object in object_list %}
+    <tr>
+        <td> Заявление {{ object.pk }}</td>
+        <td>
+            <button><a href='/declare/{{object.pk}}/delete' class='class="btn text-secondary px-0'> Delete
+            </a></button>
+        </td>
+        <td>
+            <button><a href='/declare/{{object.pk}}/update' class='class="btn text-secondary px-0'> Update
+            </a></button>
+        </td>
+
+        {% endfor %}
+    </tr>
+
+</table>
+{% endblock content %}
+
+

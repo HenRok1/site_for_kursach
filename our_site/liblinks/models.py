@@ -12,5 +12,5 @@ class Liblinks(models.Model):
     total = models.CharField(max_length=150, verbose_name="Общее число страниц в книге")
 
     def __str__(self):
-        return ("%s %s %s %s %s %s %s %s %s %s %s %s %s %s") % (
-        self.authors, self.title, self.num_izd, self.city, self.izdatelstvo, self.year, self.total)
+        return ("%s %s %s %s %s %s %s") % (
+            self.authors, self.title, self.num_izd, self.city, self.izdatelstvo, self.year, self.total)
